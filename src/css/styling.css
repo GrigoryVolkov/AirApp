@@ -1,0 +1,165 @@
+@media only screen and (max-width: 860px) {
+  .heading {
+    font-size: 3vw;
+  }
+  .text {
+    font-size: 2.3vw;
+  }
+  .resultsDiv {
+    font-size: 2.2vw;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .heading {
+    font-size: 3.2vw;
+  }
+  .text {
+    font-size: 2.4vw;
+  }
+  .resultsDiv {
+    font-size: 2.4vw;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .heading {
+    font-size: 3.5vw;
+  }
+  .text {
+    font-size: 2.5vw;
+  }
+  .resultsDiv {
+    font-size: 2.5vw;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .heading {
+    font-size: 3.8vw;
+  }
+  .text {
+    font-size: 2.7vw;
+  }
+  .resultsDiv {
+    font-size: 2.7vw;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .heading {
+    font-size: 4vw;
+  }
+  .text {
+    font-size: 2.8vw;
+  }
+  .resultsDiv {
+    font-size: 2.8vw;
+  }
+}
+
+.particles {
+  height: 200vh;
+  -webkit-filter: blur(1.5px);
+          filter: blur(1.5px);
+  z-index: -1;
+}
+
+.tsparticles-canvas-el {
+  min-height: 100vh;
+}
+
+.topBar {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  text-align: center;
+  font-weight: 800;
+  z-index: 100;
+}
+
+.infoDiv {
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.infoDivInner {
+  width: 50%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.heading {
+  font-weight: 800;
+}
+
+.text {
+  font-weight: 550;
+  color: gray;
+}
+
+.searchDiv {
+  width: 100%;
+  background: white;
+  margin-top: 50px;
+  font-weight: 1000;
+  font-size: 20px;
+}
+
+.cityName {
+  border-bottom: 2px solid red;
+}
+
+.search {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  z-index: 1;
+}
+
+.arrowDown {
+  font-size: 35px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.arrowDownDiv {
+  width: 100%;
+  height: 80px;
+}
+
+.collapseDiv {
+  width: 100%;
+  position: relative;
+  margin-top: 40px;
+}
+
+.collapse {
+  position: absolute;
+  width: 100%;
+  z-index: 10000;
+}
+
+.message {
+  font-weight: 700;
+  color: #000000;
+}
+
+.messageWhite {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+/*# sourceMappingURL=styling.css.map */
