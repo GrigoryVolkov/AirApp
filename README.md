@@ -5,5 +5,6 @@ AirApp is a React application that shows real time data on air quality levels in
 ## Usage
 
 ```npm
+npm install
 npm start
 ```
